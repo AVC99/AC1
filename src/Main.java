@@ -31,7 +31,7 @@ public class Main {
             championlist.add(aux);
         }
 
-//Menu-----------------------------------------------------------------------------------------------------------------------------------------
+//Menu con funcionalidades-----------------------------------------------------------------------------------------------------------------------------------------
         try {
             do {
                 rework_sum = 0;
@@ -41,7 +41,7 @@ public class Main {
                 System.out.println("--Champions--\n1.Rework champion\n2.Show reworked\n3.Show popular difficulty\n4.Show images by role\n5.Exit\n\nEnter an option: ");
                 menu = sc.nextInt();
 
-                if (menu>0&&menu<6){
+                if (menu>0 && menu<6){
                     switch (menu) {
                         case 1:
                             try {

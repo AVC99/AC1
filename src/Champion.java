@@ -22,7 +22,7 @@ public class Champion {
     }
    static public Champion fromLine (String line){
 
-        String part[] = line.split(",");
+        String[] part = line.split(",");
 
         return new Champion(part[0], part[1], part[2],  Double.parseDouble(part[3]),Integer.parseInt(part[4]), Boolean.parseBoolean(part[5]), part[6]);
     }
