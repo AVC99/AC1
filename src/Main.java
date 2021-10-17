@@ -27,7 +27,6 @@ public class Main {
 
         for(String linea : text.split("\n")){
             Champion aux = Champion.fromLine(linea);
-            //System.out.println(aux.getId()+aux.getName()+aux.getDifficulty()+ aux.getRole()+ aux.getTitle()+ aux.getSkins()+aux.isReworked());
             championlist.add(aux);
         }
 
