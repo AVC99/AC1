@@ -21,7 +21,7 @@ public class Main {
             System.out.println("Error while opening the file.");
             e.printStackTrace();
         }
-       // System.out.println(text);
+
 
 // Separar y meter champions en la lista-------------------------------------------------------------------------------------------
 
